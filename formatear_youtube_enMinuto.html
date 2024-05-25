@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://thumbs.dreamstime.com/z/v%C3%ADdeo-com%C3%BAn-de-youtube-del-bot%C3%B3n-rojo-vector-con-la-frontera-estilo-126672925.jpg" type="image/x-icon">
+    <style>
+        #figure-icono{
+            /* background-color: red; */
+            margin-top: 1em;
+        }
+        img{
+            width: 20%;
+        }
+        button{
+            border-radius: 1em;
+            width: 50em;
+            height: 5em;
+            font-size: 1.2em;
+        }
+        .inputsContainer{
+            width: fit-content;
+            border :1px solid red;
+            padding: 5px;
+        }
+        textArea{
+            border-radius: 1em;
+            background-color: rgb(223, 232, 233);
+            font-size: 2em;
+            width: 80%;
+            height: 5em;
+        }
+        .padding010{
+            padding: 1em 2em;
+        }
+        .displayBlock_margin0Auto{
+            margin: 0 auto;
+            display: block;
+        }
+
+        input{
+            height: 2em;
+            width: 10em;
+            border-radius: .8em;
+            background-color: beige;
+            padding-left: 1.2em;
+            font-size: 1.2em;
+        }
+        h1{
+            display: block;
+            margin:0 auto;
+            width: fit-content;
+        }
+        .h1Respuesta{
+            margin-top: 0.8em;
+            height: 38px;
+            border-radius: 1em;
+            background-color: rgb(231, 162, 162);
+            width: 80%;
+        }
+    </style>
+    <title>YOUTUBE Url_min_seg  </title>
+</head>
+<body>
+    <h1>Introduce aca la url del video de youtube </h1>
+    <textarea name="textArea" id="idTextArea" class="displayBlock_margin0Auto padding010" cols="200" rows="10"></textarea>
+
+    <div class="inputsContainer displayBlock_margin0Auto" >
+        <input type="number" id="idInputmin" placeholder="minutos">
+        <input type="numer"  id="idInputseg" placeholder="segundos">
+    </div>
+
+    <br>
+    <button id="idbuttonEjecutar" class="displayBlock_margin0Auto">Ejecutar</button>
+    
+    <h1 class="h1Respuesta"><a id="idRespuesta" href="" target="_blank"></a>  </h1>
+
+    <figure id="figure-icono" class="displayBlock_margin0Auto">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384012.png" class="displayBlock_margin0Auto" alt="">
+       <figcaption></figcaption>
+    </figure>
+
+  
+
+    <script src="youtubeEnEsteMin.js"></script>
+</body>
+</html>
